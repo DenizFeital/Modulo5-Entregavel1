@@ -17,6 +17,30 @@ from sklearn.cluster import KMeans
 # Carregar o arquivo CSV
 df = pd.read_csv('crop_yield.csv')
 
+#Exibindo informacoes basicas do dataset
+print("")
+print ("Exibindo informacoes basicas do dataset")
+print("")
+
+
+# Exibir as primeiras linhas
+print(df.head())
+
+# Informações gerais sobre o dataset
+print(df.info())
+
+# Estatísticas descritivas das colunas numéricas
+print(df.describe())
+
+# Exibir nomes das colunas
+print(df.columns)
+
+#identificando valores nulos
+print("")
+print ("Identificado valores nulos no dataset")
+print("")
+print(df.isnull().sum())  # Contar valores nulos por coluna
+
 # Codificar a coluna 'Cultura' para valores numéricos usando Label Encoding
 le = LabelEncoder()
 df['Cultura_encoded'] = le.fit_transform(df['Cultura'])
