@@ -17,16 +17,14 @@ Deniz Feital Armanhe - Individual
 
 ## 👩‍🏫 Professores:
 ### Tutor(a) 
-- Lucas Gomes Moreira
+- Leonardo Ruiz Orabona
 ### Coordenador(a)
 - Andre Godoi Chiovato
 
 
 ## 📜 Descrição
 
-Nesta nova fase do projeto, Fase 4, o objetivo é levar a implementação da FarmTech Solutions da Fase 3 a um novo nível de sofisticação, incorporando o uso do Scikit-learn, Streamlit, Banco de Dados e otimizações no ESP32.
-
-O desafio aqui é aprimorar a aplicação desenvolvida na Fase 3, trazendo novas funcionalidades e melhorias no uso de recursos já apresentados nas fases.*
+Nesta nova fase do projeto, Módulo 5, o objetivo é levar a implementação da FarmTech Solutions da Fase 3 a um novo nível de sofisticação, vamos colocar a mão na massa no desenvolvimento de duas entregas obrigatórias: Machine Learning e Computação em Nuvem.
 
 
 ## 📁 Estrutura de pastas
@@ -49,17 +47,17 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 ## 🔧 Como executar o código
 
-Para este engajamento, temos alguns códigos a serem executados:
+Para este engajamento, temos o código DenizFeitalArmanhe_rm559439_modulo5_capitulo1.py (Python) e o mesmo código para DenizFeitalArmanhe_rm559439_modulo5_capitulo1.jpynb (Jupiter):
 
 Os arquivos .py (Python) devem ser executados ou através do comando prompt ou através do Visual Studio Code (modo sugerido). Requisitos para o Python são as bibliotecas que foram adicionadas ao código.
-Os códigos C deste engajamento devem ser executados diretamente no webiste wokwi.com. Para este caso, verificar o link do wokwi.com na documentação.
+O código Jupiter pode ser executador através do Google Colab ou através do Jupyter Notebook.
 
-As versões utilizadas foram as mais recentes, tanto do Python quanto da ferramenta C.
+As versões utilizadas foram as mais recentes.
 
 
 ## 🗃 Histórico de lançamentos
 
-* 0.1.0 - 12 de Dezembro de 2024
+* 0.1.0 - 17 de Março de 2025
     *
 
 ## 📋 Licença
