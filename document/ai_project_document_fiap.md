@@ -173,34 +173,3 @@ O R² (R-quadrado) é uma métrica que indica a proporção da variabilidade dos
 
 Já o RMSE (Root Mean Squared Error) é a raiz quadrada da média dos erros quadráticos. Ele mede o quão distante as previsões estão dos valores reais, com unidades iguais às da variável alvo. Quanto menor o RMSE, melhor o modelo, pois significa que as previsões estão mais próximas dos valores reais.
 
-
-
-
-
-
-# <a name="c7"></a>Anexos
-
-*Inclua aqui quaisquer complementos para seu projeto, como diagramas, imagens, tabelas etc. Organize em sub-tópicos utilizando headings menores (use ## ou ### para isso).*
-
-Desenho físico do banco de dados (foi adicionado uma coluna (temperature_value) na tabela TB_MD3_HUMIDITY_READINGS):
-
-![image](https://github.com/user-attachments/assets/1785b788-9470-413f-a39c-f4ee8154098f)
-
-Solução ESP32:
-
-![image](https://github.com/user-attachments/assets/1d449443-5752-4ff2-a511-d0e51d375ef3)
-
-Análise através dos resultados obtidos com a regressão linear (antes e após os ajustes):
-
-![image](https://github.com/user-attachments/assets/8032cd6a-c0fc-4c21-b2b6-19a35790219a)
-
-
-![image](https://github.com/user-attachments/assets/314d24a2-12df-4f33-85d4-51995bfd8b1a)
-
-Utilização da ferramenta Streamlit:
-
-![image](https://github.com/user-attachments/assets/3fe7486f-0ee9-43bd-9450-57de20a527b5)
-
-
-![image](https://github.com/user-attachments/assets/0a4edd06-5342-4aa9-9fe3-bd9ac2f3e175)
-
