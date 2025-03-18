@@ -236,3 +236,66 @@ Vamos comentar pelo segundo ponto, que é decisivo, se há restrições legais p
 Abaixo segue o link do video do Youtube mostrando como esta comparação foi efetuada:
 
 https://youtu.be/PNBf588wj1k
+
+
+
+
+## Sumário - Entregável 2
+
+Análise de opções de aquisição de serviços na AWS.
+
+## **Requisitos:**
+
+Usar  a calculadora da AWS, realizar uma estimativa de custos (On-Demand – 100%) para usar uma máquina Linux simples, comparando os valores cotados para a região de São Paulo (BR) e para a região da Virgínia do Norte (EUA). A máquina será utilizada para hospedar uma API que receberá dados dos sensores que coletam as variáveis da Entrega 1 e onde rodará a Machine Learning. Qual a solução mais barata com as seguintes configurações?
+
+•	2 CPUs.
+
+•	1 GIB de memória.
+
+•	Até 5 Gigabit de rede.
+
+•	50 GB de armazenamento (HD).
+
+## **Como calcular:**
+
+I site da AWS fornece uma calculadora que nos ajuda muito neste quesito:
+
+Primeiro precisamos acessar o link: https://calculator.aws/#/
+
+![image](https://github.com/user-attachments/assets/fea78009-5e29-48ab-93d2-1d35bf478f59)
+
+Feito isso, selecionamos "Create estimate", que nos levará a uma tela onde escolhemos algumas opções como o tipo de serviço e a região.
+
+![image](https://github.com/user-attachments/assets/95e9838a-d56d-4b95-8b15-4553502865ba)
+
+Com estas seleções efetuadas, podemos agora selecionar o tipo de hardware que configuraremos para o servidor Linux, informando memória, quantidade de CPUs entre outros parâmetros:
+
+![image](https://github.com/user-attachments/assets/568583bb-2140-427d-ac41-a9be5e6ddfea)
+
+Feito isso, selecionamos "Save and add service" para que possamos selecionar outra região e efetuar a comparação. Quando tiver selecionado todas as regiões, basta selecionar "Save and View Summary".
+
+
+
+
+
+
+
+## **Comparativo:**
+
+![image](https://github.com/user-attachments/assets/00e6b891-84b6-4dc8-a094-8a0b761c6f2e)
+
+Em termos financeiros claramente a melhor opção seria hospedar a máquina nos Estados Unidos. Porém temos que levar em consideração dois pontos importantes do enunciado:
+
+Suponha também que você precisa acessar rapidamente os dados dos sensores:
+
+Há restrições legais para armazenamento no exterior.
+
+Qual opção você escolheria? Justifique.
+
+Com estas duas considerações a resposta deixa de ser simpoles.
+
+Vamos comentar pelo segundo ponto, que é decisivo, se há restrições legais para armazenar dados no exterior, isso elimina qualquer possibilidade de usarmos o datacenter nos Estados Unidos. Quando a "acessar rapidamente" isso pode ser subjetivo, pois o que é rapidamente? Milisegundos, segundos, minutos? Em se tratando de IoT eu entendo que estamos falando em acesso muito rápido, pois podemos estar falando em tomadas de decisões, como acionamento de um motor, um alarme e isso não poderia esperar. Desta forma, estas duas condições nos remete a solução de hospedar o servidor Linux no Brasil.
+
+Abaixo segue o link do video do Youtube mostrando como esta comparação foi efetuada:
+
+https://youtu.be/PNBf588wj1k
