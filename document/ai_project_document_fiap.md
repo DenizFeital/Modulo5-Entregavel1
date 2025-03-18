@@ -84,6 +84,17 @@ Utilizamos o Python e modelos de regressão linear para estas atividades.
 # <a name="c4"></a>4. Resultados e Avaliações
 
 ## 4.1. Análise dos Resultados
+
+Aqui mostramos algumas informações básicas do dataset, como quantidade de colunas e tipos de dados:
+
+![image](https://github.com/user-attachments/assets/4cbbc9b2-67af-4343-829e-c2fc6c475a40)
+
+![image](https://github.com/user-attachments/assets/6edc6078-39df-441a-a39f-c6924c413d98)
+
+Mostramos também que o dataset está bem estruturado, sem nenhuma coluna com valores nulos.
+
+![image](https://github.com/user-attachments/assets/ec357e90-578c-41ff-a29f-d922e2a24dde)
+
  
 Utilizamos um arquivo com pouco mais de 150 registros, onde tivemos informações sobre 4 culturas (Cocoa Beans, Oil Palm fruit, Rice paddy e Rubber natural) além de informações climáticas e a produção das mesmas. Percebemos uma clusterização bem definidas das culturas. Em termos de outliers elas estavam bem equilibradas, o que se mostrou bem desequilibrada foi o resultado da produção em si, com valores muito diferentes.
 
