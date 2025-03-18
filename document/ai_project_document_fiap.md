@@ -232,3 +232,9 @@ Qual opção você escolheria? Justifique.
 Com estas duas considerações a resposta deixa de ser simpoles.
 
 Vamos comentar pelo segundo ponto, que é decisivo, se há restrições legais para armazenar dados no exterior, isso elimina qualquer possibilidade de usarmos o datacenter nos Estados Unidos. Quando a "acessar rapidamente" isso pode ser subjetivo, pois o que é rapidamente? Milisegundos, segundos, minutos? Em se tratando de IoT eu entendo que estamos falando em acesso muito rápido, pois podemos estar falando em tomadas de decisões, como acionamento de um motor, um alarme e isso não poderia esperar. Desta forma, estas duas condições nos remete a solução de hospedar o servidor Linux no Brasil.
+
+Abaixo segue o link do video do Youtube mostrando como esta comparação foi efetuada:
+
+https://youtu.be/PNBf588wj1k
+
+
