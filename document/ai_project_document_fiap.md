@@ -89,26 +89,48 @@ Utilizamos o Python e modelos de regressão linear para estas atividades.
  
 Utilizamos um arquivo com pouco mais de 150 registros, onde tivemos informações sobre 4 culturas além de informações climáticas e a produção das culturas. Percebemos uma clusterização bem definidas das culturas. Em termos de outliers elas estavam bem equilibradas, o que se mostrou bem desequilibrada foi a produção em si, com valores muito diferentes.
 
+Estatísticas descritivas para cada coluna:
+       Precipitacao    Humidade  Humidade_relativa  Temperatura       Colheita
+count    156.000000  156.000000         156.000000    156.00000     156.000000
+mean    2486.498974   18.203077          84.737692     26.18359   56153.096154
+std      289.457914    0.293923           0.996226      0.26105   70421.958897
+min     1934.620000   17.540000          82.110000     25.56000    5249.000000
+25%     2302.990000   18.030000          84.120000     26.02000    8327.750000
+50%     2424.550000   18.270000          84.850000     26.13000   18871.000000
+75%     2718.080000   18.400000          85.510000     26.30000   67518.750000
+max     3085.790000   18.700000          86.100000     26.81000  203399.000000
+
 Abaixo os gráficos gerados:
 
+
 <img width="494" alt="image" src="https://github.com/user-attachments/assets/717a5f53-810e-40e5-a283-92a1ee92bb2d" />
+
 A clusterização mostra um equilíbrio bem definido entre as quatro culturas.
+
 
 <img width="460" alt="image" src="https://github.com/user-attachments/assets/87ddb5d9-4d7b-4e24-b228-6a7dd4180cce" />
 
+
 a produção (colheita) mostra uma diferença fenomenal entre as informações apresentadas, ou seja, praticamente nenhum padrão com relação ao produto ou clima.
+
 
 Modelos preditivos.
 
 Analisamos os dados através de 5 modelos distintos e os resultados foram bem interessantes:
 
+
 Regressão Linear:
+
 ![image](https://github.com/user-attachments/assets/09b60b5d-8cc9-43cf-a55c-19308112e3d3)
+
 
 O resultado não foi muito bom.
 
+
 Árvore de decisão:
+
 ![image](https://github.com/user-attachments/assets/88226a1c-d27b-4d39-9cad-bb52040f0103)
+
 
 Percebemos que foi um dos melhores modelos, onde a linha preditiva se assimilou muito com o resultado original.
 
@@ -116,12 +138,12 @@ SVR
 
 ![image](https://github.com/user-attachments/assets/84680813-6f91-4238-aef6-50c8c3864317)
 
+
 Também não apresentou um bom resultado
 
 KNN
 
 ![image](https://github.com/user-attachments/assets/4d0ec6e4-9838-43ff-9b3f-f58d84adc6ac)
-
 
 A utilização deste modelo também deixou a desejar.
 
