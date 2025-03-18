@@ -193,6 +193,28 @@ Usar  a calculadora da AWS, realizar uma estimativa de custos (On-Demand – 100
 
 •	50 GB de armazenamento (HD).
 
+## **Como calcular:**
+
+I site da AWS fornece uma calculadora que nos ajuda muito neste quesito:
+
+Primeiro precisamos acessar o link: https://calculator.aws/#/
+
+![image](https://github.com/user-attachments/assets/fea78009-5e29-48ab-93d2-1d35bf478f59)
+
+Feito isso, selecionamos "Create estimate", que nos levará a uma tela onde escolhemos algumas opções como o tipo de serviço e a região.
+
+![image](https://github.com/user-attachments/assets/95e9838a-d56d-4b95-8b15-4553502865ba)
+
+Com estas seleções efetuadas, podemos agora selecionar o tipo de hardware que configuraremos para o servidor Linux, informando memória, quantidade de CPUs entre outros parâmetros:
+
+![image](https://github.com/user-attachments/assets/568583bb-2140-427d-ac41-a9be5e6ddfea)
+
+Feito isso, selecionamos "Save and add service" para que possamos selecionar outra região e efetuar a comparação. Quando tiver selecionado todas as regiões, basta selecionar "Save and View Summary".
+
+
+
+
+
 
 
 ## **Comparativo:**
