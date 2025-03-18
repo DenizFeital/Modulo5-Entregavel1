@@ -1,7 +1,7 @@
 
 <img src="../assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=30% height=30%>
 
-# AI Project Document - Módulo 5 - FIAP
+# AI Project Document - Módulo 5 - FIAP (Dois entregáveis neste Readme)
 
 ## Nome do Grupo
 Deniz Feital Armanhe - individual
@@ -10,7 +10,7 @@ Deniz Feital Armanhe - individual
 Deniz Feital Armanhe
 
 
-## Sumário
+## Sumário - Entregável 1
 
 [1. Introdução](#c1)
 
@@ -175,3 +175,38 @@ O R² (R-quadrado) é uma métrica que indica a proporção da variabilidade dos
 3. KNN: R² = 0.6718801604527653
 4. Linear Regression: R² = -0.10145864648572833
 5. SVM: R² = -0.31104578138210703
+
+
+## Sumário - Entregável 2
+
+Análise de opções de aquisição de serviços na AWS.
+
+## **Requisitos:**
+
+Usar  a calculadora da AWS, realizar uma estimativa de custos (On-Demand – 100%) para usar uma máquina Linux simples, comparando os valores cotados para a região de São Paulo (BR) e para a região da Virgínia do Norte (EUA). A máquina será utilizada para hospedar uma API que receberá dados dos sensores que coletam as variáveis da Entrega 1 e onde rodará a Machine Learning. Qual a solução mais barata com as seguintes configurações?
+
+•	2 CPUs.
+
+•	1 GIB de memória.
+
+•	Até 5 Gigabit de rede.
+
+•	50 GB de armazenamento (HD).
+
+
+
+## **Comparativo:**
+
+![image](https://github.com/user-attachments/assets/00e6b891-84b6-4dc8-a094-8a0b761c6f2e)
+
+Em termos financeiros claramente a melhor opção seria hospedar a máquina nos Estados Unidos. Porém temos que levar em consideração dois pontos importantes do enunciado:
+
+Suponha também que você precisa acessar rapidamente os dados dos sensores:
+
+Há restrições legais para armazenamento no exterior.
+
+Qual opção você escolheria? Justifique.
+
+Com estas duas considerações a resposta deixa de ser simpoles.
+
+Vamos comentar pelo segundo ponto, que é decisivo, se há restrições legais para armazenar dados no exterior, isso elimina qualquer possibilidade de usarmos o datacenter nos Estados Unidos. Quando a "acessar rapidamente" isso pode ser subjetivo, pois o que é rapidamente? Milisegundos, segundos, minutos? Em se tratando de IoT eu entendo que estamos falando em acesso muito rápido, pois podemos estar falando em tomadas de decisões, como acionamento de um motor, um alarme e isso não poderia esperar. Desta forma, estas duas condições nos remete a solução de hospedar o servidor Linux no Brasil.
